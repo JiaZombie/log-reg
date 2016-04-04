@@ -1,0 +1,173 @@
+        body {
+            background: #a4ffda;
+            font: 20px 'MicroSoft YaHei';
+        }
+        a {
+            text-align: center;
+            color: #CCC;
+            display: block;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #00F;
+            text-decoration: underline;
+        }
+        .wrap {
+            width: 500px;
+            height: 500px;
+            margin: 50px auto;
+            background: #FFF;
+            padding-top: 30px;
+            box-shadow: 19px;
+            border-radius: 10px;
+            position: relative;
+        }
+        .hidden {
+            display: none;
+        }
+        /*toggle button*/
+        .btn {
+            outline: none;
+        }
+        #toggle,.before-reg {
+            position: absolute;
+            right: -40px;
+            top: 45px;
+            text-align: center;
+            cursor: pointer;
+            z-index: 100;
+        }
+        /*register*/
+        .before-reg {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: rgb(236, 62, 62);
+            border: none;
+            z-index: 99;
+            transition: all .3s ease-out;
+        }
+        .before-reg form, .before-reg button, .before-reg div {
+            display: none;
+        }
+        .reg-title {
+            width: 100%;
+            height: 50px;
+            border-left: 3px solid #fFF;
+            padding-left: 15px;
+            font: 2em 'MicroSoft YaHei';
+            font-weight: 800;
+            color: #FFF;
+        }
+        .reg {
+            top: 5px;
+            right: 0;
+            background: rgb(236, 62, 62);
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            transition: all .5s ease-out;
+        }
+        .reg form, .reg button, .reg div  {
+            display: block;
+            text-align: left;
+            transition: all 1s ease-out;
+        }
+        .reg-icon {
+            transform:rotate(30deg);
+        }
+        /*login*/
+        .log-title {
+            width: 100%;
+            height: 50px;
+            border-left: 3px solid #f00;
+            padding-left: 15px;
+            font: 2em 'MicroSoft YaHei';
+            font-weight: 800;
+            color: #f00;
+        }
+        .icon {
+            display: inline-block;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: rgb(236, 62, 62);
+            font-size: 2.5em;
+            color: #FFF;
+        }
+        .log-ok {
+            color: #FFF;
+            background-color: #EC3E3E;
+            transition: background 5s ease-out;
+        }
+        /*form*/
+        input {
+            outline: none;
+            width: 70%;
+            font-size: 1em;
+        }
+        .reg input {
+            background: rgb(236, 62, 62);
+        }
+        .form-group {
+            position: relative;
+            left: 15%;
+        }
+        .form-control {
+            border: 0;
+            line-height: 50px;
+            border-bottom: 2px solid #CCC;
+            margin: 20px auto;
+        }
+        .form-control:focus {
+           border-bottom: 2px solid #F00;
+           transition: border .5s ease-out;
+       }
+       .reg .form-control:focus {
+        color: #FFF;
+        border-bottom: 2px solid #FFF;
+        transition: border .5s ease-out;
+    }
+    .control-label {
+        position: absolute;
+        top: 35px;
+    }
+    .label-floating .control-label {
+        color: #2F2E2E;
+        opacity: .6;
+    }
+    .reg .label-floating .control-label {
+        color: #F9F5F5;
+        opacity: .6;
+    }
+    /*submit*/
+    .btn-submit {
+        margin: 20px auto;
+        position: relative;
+        left: 25%;
+    }
+    .btn-lg {
+        width: 200px;
+        height: 50px;
+        font-size: 1em;
+    }
+    .went {
+        background-color: #FFF;
+        border: 2px solid #CCC;
+        color: #CCC;
+    }
+    .go {
+        background-color: #FFF;
+        border: 2px solid #F00;
+        font-size: 1.2em;
+        color: #F00;
+        cursor: pointer;
+        transition: all .5s ease-out;
+    }
+    #next {
+        background-color: rgb(236, 62, 62);
+        border: 2px solid #CCC;
+        color: #CCC;
+        left: 0;
+        text-align: center;
+    }

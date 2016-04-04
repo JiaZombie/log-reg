@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <title>log-reg</title>
+    <link rel="stylesheet" type="text/css" href="./css/log-reg.css">
+</head>
+<body>
+
+
+    <div class="wrap">
+        <div class="icon" id="toggle">+</div>
+        <!-- Register -->
+        <div class="before-reg" id="register">
+            <div class="reg-title">
+                REGISTER
+            </div>
+            <form method="post">
+                <div class="form-group label-floating">
+                    <label class="control-label" for="focusedInput1">UserName</label>
+                    <input class="form-control" name="pwd" id="regInput1" type="text">
+                </div>
+                <div class="form-group label-floating">
+                    <label class="control-label" for="regInput2">Password</label>
+                    <input class="form-control" name="pwd" id="regInput2" type="password">
+                </div>
+                <div class="form-group label-floating">
+                    <label class="control-label" for="focusedInput3">Repeat Password</label>
+                    <input class="form-control" name="repwd" id="regInput3" type="password">
+                </div>
+            </form>
+            <button href="javascript:void(0)" class="btn btn-submit btn-lg" id="next">NEXT</button>
+        </div>
+        <!-- Login -->
+        <div id="login">
+            <div class="log-title">
+                LOGIN
+            </div>
+            <form method="post">
+                <div class="form-group label-floating">
+                    <label class="control-label" for="focusedInput1">UserName</label>
+                    <input class="form-control" name="name" id="focusedInput1" type="text">
+                </div>
+                <div class="form-group label-floating">
+                    <label class="control-label" for="focusedInput2">Password</label>
+                    <input class="form-control " name="pwd" id="focusedInput2" type="password">
+                </div>
+            </form>
+            <button href="javascript:void(0)" class="btn btn-submit btn-lg went" id="go">GO</button>
+            <a href="#">Forget your password?</a>
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript" src="./js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="./js/log-reg.js"></script>
+</body>
+</html>
