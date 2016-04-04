@@ -1,2 +1,2 @@
 # log-reg
-a login/regidter page
+a login/register page with css3 and jquery
